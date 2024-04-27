@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    width: 500px;
+    height: 650px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 10px;
+}
+.header_content{
+    width: 100%;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 10px;
+
+}
+.form{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+.input_div{
+    width: 100%;
+    height: 40px;
+    box-shadow: #64646f33 0px 0px 29px 0px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.inputs{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: dodgerblue;
+}
+.bi-x{
+    font-size: 20px;
+    color: red;
+    margin: 5px;
+    cursor: pointer;
+}
+.form_btn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 16px;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    border: 1px solid transparent;
+    transition: .5s;
+    cursor: pointer;
+}
+.form_btn:hover{
+    transition: .5s;
+    background-color: white;
+    border-color: green;
+    color: green;
+}
+.header_delete_btn_all{
+    font-size: 16px;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: 1px solid transparent;
+    transition: .5s;
+    cursor: pointer;
+    margin:42px 0px 0px 10px;
+}
+.header_delete_btn_all:hover{
+    transition: .5s;
+    background-color: white;
+    border-color: red;
+    color: red;
+}
+.task{
+    width: 100%;
+    height: 480px;
+    overflow-y: auto;
+}
+.card{
+    width: 100%;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+.text{
+    color: green;
+    font-size: 20px;
+    padding: 40px 30px;
+}
+.active{
+    background-color: purple;
+    color: white;
+    text-decoration: line-through;
+}
+.btns{
+    font-size: 16px;
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: 1px solid transparent;
+    transition: .5s;
+    cursor: pointer;
+    margin: -15px 10px;
+position: relative;
+top: -10px;
+}
+.btns:hover{
+    transition: .5s;
+    background-color: white;
+    border-color: red;
+    color: red;
+}
+.btns1{
+    font-size: 16px;
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: gold;
+    color: white;
+    border: 1px solid transparent;
+    transition: .5s;
+    cursor: pointer;
+    margin: -15px 10px;
+}
+.btns1:hover{
+    transition: .5s;
+    background-color: white;
+    border-color: gold;
+    color: gold;
+}
+.btns2{
+    font-size: 16px;
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid transparent;
+    transition: .5s;
+    cursor: pointer;
+    margin: -15px 10px;
+
+}
+.btns2:hover{
+    transition: .5s;
+    background-color: white;
+    border-color: dodgerblue;
+    color: dodgerblue;
+}
+.btns3{
+    font-size: 16px;
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: brown;
+    color: white;
+    border: 1px solid transparent;
+    transition: .5s;
+    cursor: pointer;
+    margin: -15px 10px;
+}
+.btns3:hover{
+    transition: .5s;
+    background-color: white;
+    border-color: brown;
+    color: brown;
+}
